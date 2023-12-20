@@ -254,6 +254,23 @@ const copiedObject = {...originalObject};
 **Explanation**
 The spread operator can also be used to combine objects, creating a new object with the properties of multiple objects.
 
+## Template Literals
+
+Template literals, introduced in ECMAScript 6 (ES6), provide a more flexible and readable way to work with strings in JavaScript. They are enclosed by backticks(``) and allow for embedded expressions and multiline strings. Let's explore the key futures of template literals
+
+### Basic Syntax
+
+```
+const name = 'Joshua';
+const greeting = `Hello, ${name}!`;
+console.log(greeting);
+// Output: Hello, John!
+```
+
+Template literals use backticks(``) to define strings instead of single or double quotes.
+
+- `${expression}` is used to embed expressions within the string
+
 # Course Material and FAQ for the Ultimate React Course
 
 This branch of the repo contains starter files and final code for all sections and projects of the course, **exactly as shown in the videos**.
