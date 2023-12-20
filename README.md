@@ -1,4 +1,5 @@
 # Why do Frontend Frameworks exist?
+
 Frontend frameworks like React.js exist to make it easier and faster to build cool and interactive website. They probide a set of rules and tools that help developers create websites more efficiently. Here's why they're helpful.
 
 1. **Faster Development**: They help developers write code more quickly.
@@ -9,66 +10,144 @@ Frontend frameworks like React.js exist to make it easier and faster to build co
 6. **Big Support Community**: Many developers use these frameworks, so there's lots of help and resource available.
 7. **Works EVerywhere**: They ensure that websites work well on different web browers
 
-
 # What is React?
+
 - React is a JavaScript library for building user interfaces
 - React is a **Declarative**, **Component Based**, **State driven**, JavaScript **Library** for building user-interfaces, created by facebook.
 
 - **Component Based**: Components are the building blocks of user-interfaces. Components are reusable.
-- **Declarative**: Declarative describe how components look like and how they work using a **declarative syntax called JSX**. *Declarative* simply means telling React what a component should look like, **based on current data/state**.
+- **Declarative**: Declarative describe how components look like and how they work using a **declarative syntax called JSX**. _Declarative_ simply means telling React what a component should look like, **based on current data/state**.
 
 React is **abstraction** away from DOM. We never touch the DOM.
 
 **JSX** is a syntax that combines HTML, CSS, JavaScript as well as referencing other components.
 
-- **State-Driven**: React *reacts* to state changes by Re-Rendering the UI
+- **State-Driven**: React _reacts_ to state changes by Re-Rendering the UI
 
-**Note**: *React updates it's UI using **state***
+**Note**: \*React updates it's UI using **state\***
 
 - **JavaScript Library**: React is a library because React is only the "view" layer. We need to pick multiple external libraries to build a complete application.
 
-Note: *Frameworks built on React are **NEXT.js** and **Remix***
+Note: \*Frameworks built on React are **NEXT.js** and **Remix\***
 
+# Setting Up React Project
 
+1. **Create React App(CRA):** _Create React App_ is a command tool that sets up a new React project with pre-configured development environment.
 
+**Advantages**
 
+- Quick and easy: It provides a streamlined setup without the need for manuak configuration.
 
+- Configuration abstraction: Many configurations are abstracted away, allowing developers to focus on coding.
 
+**Usage**
 
+- Open a terminal and run the following command
 
+```
+    npx create-react-app your-project-name
+```
 
+- Replace "your-project-name" with the desired name for your React Project.
 
+- Once the installation is complete, navigate into the project folder:
 
+```
+cd your-project-name
+```
 
+- Start the development server:
 
+```
+npm start
+```
 
+- Visit `http://localhost:3000` in your web browser to see your new React app.
 
+2. **Manual Setup** Manually setting up a React project involves creating the project structure and configuring the necessary tools yourself.
 
+**Advantages**
 
+- Full control: Allows for customised setup tailored to sepcific project requirements.
+- Learning experience: Provides a deeper understanding of the underlying tools and configurations.
 
+**Steps**
 
+- Create a new projet folder and navigate into it
 
+```
+mkdir your-peoject-name
+cd your-project-name
+```
 
+- Initialise a new Node project (creates a **'package.json'** file)
 
+```
+npm init -y
+```
 
+- install React and ReactDOM packages
 
+```
+npm install react react-dom
+```
 
+- Create an HTML file such as **'index.html'**, and set up a root element for your React app.
 
+- Use a bundler like Webpack to bundle your JavaScript files.
+- Set up Babel to transpile React code.
+- Create a build script in **package.json** to run the development server or build the project.
+- Start the development server or build the project based on your configuration.
 
+Choosing between **Create React App** and **manual Setup** depends on factors like product complexity, customization needs, and the desire for a quick start versus a more hands-on learning experience. `create-react-app` is often recommended for beginners or smaller projects, while manual setup provides more flexibility for larger and customized projects.
 
+3. **VITE**
+   Vite is another tool that can be used to set up a React project, and it's gaining popularity in the React community. Vite is a fast, opinionated frontend bulild tool that aims to procide a quick and efficient development experience. Here's a brief overview of using Vite for setting up a React project.
 
+**Installation**
 
+- reate a new project folder and navigate into it
 
+```
+mkdir your-project-name
+cd your-project-name
+```
 
+- initialise a new Node.js project (creates a '**package.json**' file)
 
+```
+npm init -y
+```
 
+- install Vite globally
 
+```
+npm install -g create-vite
+```
 
+**Create a React Aoo with Vite**
 
+- Run the following command to create a new React app with Vite.
 
+```
+create-vite your-project-name --template react
+```
 
+- Navigate into the project folder
 
+```
+cd your-project-name
+```
 
+** Development**
+
+- Start the development server
+
+```
+npm run dev
+```
+
+- visit `http://localhost:3000` in your web browser to see your React app.
 
 # Course Material and FAQ for the Ultimate React Course
 
