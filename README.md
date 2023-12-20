@@ -139,12 +139,74 @@ create-vite your-project-name --template react
 cd your-project-name
 ```
 
-** Development**
+**Development**
 
 - Start the development server
 
 ```
 npm run dev
+```
+
+# Essential JavaScript Fundamentals
+
+## Destructuring
+
+Destructuring is a way to extract values from objects and arrays in a more convenient and concise way. Let's break it down for both objects and arrays.
+
+### Destructuring Objects
+
+**Example**
+
+```
+// Before Destructuring
+const person = { name: 'John', age: 25 };
+const name = person.name;
+const age = person.age;
+
+// After destructuring
+const { name, age } = person;
+```
+
+**Explanation**
+
+- Instead of accessing properties using `person.name` and `person.age`, we use the curly braces `{}` to destructure directly.
+- The variable names (`name` and `age`) match the property names in the object.
+
+### Destructuring Arrays
+
+**Example**
+
+```
+// Before destructuring
+const numbers = [1,2,3];
+const firstNUmber = numbers[0];
+const secondNumber = numbers[1];
+
+// After destructuring
+const [firstNumber, secondNumber] = numbers;
+```
+
+**Explanation**
+
+- Instead of accessing array elements using `numbers[0]` and `numbers[1]`, we can use the square brackets `[]` to destructure directly.
+- The order of variables matches the order of elements in the array.
+
+### Default Values and Rest
+
+**Destructuring Objects with default values**
+
+```
+const person = {name: 'Joshua'};
+const {name, age = 25} = person;
+// If `age` is not present in ther 'person, it defaults to 25
+```
+
+**Destructuring Arrays with Rest**
+
+```
+const numbers = [1,2,3,4,5];
+const [first, second, ...rest]
+// 'rest' will be an array containting [3, 4, 5]
 ```
 
 - visit `http://localhost:3000` in your web browser to see your React app.
