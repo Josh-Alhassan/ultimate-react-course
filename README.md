@@ -1,3 +1,75 @@
+# Why do Frontend Frameworks exist?
+Frontend frameworks like React.js exist to make it easier and faster to build cool and interactive website. They probide a set of rules and tools that help developers create websites more efficiently. Here's why they're helpful.
+
+1. **Faster Development**: They help developers write code more quickly.
+2. **Modular Design**: They let developers build websites in smaller, reusable parts.
+3. **Easy Updates**: They make it simple to update parts of a website without affecting the whole thing.
+4. **Smart Handling**: They manage how a website looks and behaves, making it easier for developers.
+5. **Ready-Made Solutions**: They come with helpful features and solutinos that save time.
+6. **Big Support Community**: Many developers use these frameworks, so there's lots of help and resource available.
+7. **Works EVerywhere**: They ensure that websites work well on different web browers
+
+
+# What is React?
+- React is a JavaScript library for building user interfaces
+- React is a **Declarative**, **Component Based**, **State driven**, JavaScript **Library** for building user-interfaces, created by facebook.
+
+- **Component Based**: Components are the building blocks of user-interfaces. Components are reusable.
+- **Declarative**: Declarative describe how components look like and how they work using a **declarative syntax called JSX**. *Declarative* simply means telling React what a component should look like, **based on current data/state**.
+
+React is **abstraction** away from DOM. We never touch the DOM.
+
+**JSX** is a syntax that combines HTML, CSS, JavaScript as well as referencing other components.
+
+- **State-Driven**: React *reacts* to state changes by Re-Rendering the UI
+
+**Note**: *React updates it's UI using **state***
+
+- **JavaScript Library**: React is a library because React is only the "view" layer. We need to pick multiple external libraries to build a complete application.
+
+Note: *Frameworks built on React are **NEXT.js** and **Remix***
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Course Material and FAQ for the Ultimate React Course
 
 This branch of the repo contains starter files and final code for all sections and projects of the course, **exactly as shown in the videos**.
