@@ -171,3 +171,19 @@ const summary = `${title}, a ${
   updatedBook.publicationDate.split("-")[0]
 }`;
 summary;
+
+// ------------------------------------------------------
+// Asynchronous JavaScript
+async function getFakeData() {
+  const res = await fetch(
+    "https://andruxnet-random-famous-quotes.p.rapidapi.com/"
+  );
+  const data = await res.json();
+
+  console.log(data);
+
+  return data;
+}
+
+const returnedData = getFakeData();
+console.log(returnedData);
