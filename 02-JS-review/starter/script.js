@@ -175,9 +175,7 @@ summary;
 // ------------------------------------------------------
 // Asynchronous JavaScript
 async function getFakeData() {
-  const res = await fetch(
-    "https://andruxnet-random-famous-quotes.p.rapidapi.com/"
-  );
+  const res = await fetch("https://jsonplaceholder.typicode.com/todos/");
   const data = await res.json();
 
   console.log(data);
